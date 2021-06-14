@@ -149,7 +149,9 @@ p, .lead {
   line-height: 1.5;
   margin-bottom: 0;
 }
-
+.mt-20px{
+  margin-top: 20px!important;
+}
 strong,
 b {
   font-weight: 700;
@@ -364,7 +366,9 @@ a.btn.btn-dark:focus {
 /* ----------------------------------
    Button Color
    ---------------------------------- */
-
+.notify-color{
+  color: #00ACC1;
+}
 .btn-color,
 a.btn-color {
   color: #fff;

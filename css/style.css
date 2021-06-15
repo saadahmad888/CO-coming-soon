@@ -75,13 +75,13 @@ body {
    in Windows 8 & Windows Phone 8
    ---------------------------------- */
 
-@-webkit-viewport {
+/* @-webkit-viewport {
   width: device-width;
 }
 
 @-moz-viewport {
   width: device-width;
-}
+} */
 
 @-ms-viewport {
   width: device-width;
@@ -1111,6 +1111,7 @@ body.vegas-container > .vegas-slide {
 .img-hover-effect {
   position: relative;
   overflow: hidden;
+  backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }

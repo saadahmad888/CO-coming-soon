@@ -120,7 +120,8 @@
               <div class="input-group">
                 <input type="text" id="name" class="form-control form-control-light" name="name" placeholder="Enter your Name..." required>
                 <input type="email" id="email" class="form-control form-control-light" name="email" placeholder="Enter your Email...">
-                <a href="" class="mt-20px btn btn-color">Submit <i class="icon icon-sm icon-arrows-slim-right-dashed"></i></a>
+                <!-- <a href="" class="mt-20px btn btn-color">Submit <i class="icon icon-sm icon-arrows-slim-right-dashed"></i></a> -->
+                <button onclick="gotowhatsapp()" class="btn btn-color mt-20px">Submit <i class="icon icon-sm icon-arrows-slim-right-dashed"></i></button>
               </div>
               <!-- Input Group -->
               <!-- <div class="input-group">
@@ -155,7 +156,23 @@
     <!-- /End .modal-dialog -->
   </div>
   <!-- /End Modal -->
+  <script>
+    function gotowhatsapp() {
 
+
+      var email = document.getElementById("email").value;
+      var name = document.getElementById("name").value;
+
+
+      var url = "https://wa.me/923110882255?text="
+        + "Name: " + name + "%0a"
+        + "Email: " + email + "%0a"
+        + "Hello world";
+
+
+      window.open(url, '_blank').focus();
+    }
+  </script>
   <!-- ============================
        Header Navigation
   ================================= -->

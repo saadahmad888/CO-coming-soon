@@ -679,6 +679,15 @@ label.message-text {
    07. Navigation
    _____________________________________ */
 
+.logo-img-co{
+  width: 25%;
+}
+@media only screen and (max-width: 767px) {
+  .logo-img-co{
+    width: 40%!important;
+  }
+}
+
 .navbar-wrapper {
   height: 60px;
   position: relative;

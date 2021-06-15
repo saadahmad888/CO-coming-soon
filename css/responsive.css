@@ -33,7 +33,7 @@
   }
 
   body.show-content {
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   header {
@@ -57,7 +57,7 @@
   }
 
   .show-content .page-content {
-    overflow: scroll;
+    overflow: hidden;
     position: absolute;
     right: 0;
     visibility: visible;

@@ -673,7 +673,9 @@ label.message-text {
 .arrow-wrapper {
   padding: 30px;
 }
-
+.bold{
+  font-weight: bold!important;
+}
 /* _____________________________________
 
    07. Navigation
@@ -1195,4 +1197,8 @@ body.vegas-container > .vegas-slide {
 
 .map h4, .map h5 {
   margin-top: 0;
+}
+
+.copyright{
+  margin-bottom: 15px;
 }

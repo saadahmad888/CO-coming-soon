@@ -1203,3 +1203,9 @@ body.vegas-container > .vegas-slide {
 .copyright{
   margin-bottom: 15px;
 }
+
+.fm-sub-btn i{
+  margin-right: 0!important;
+  font-weight: bold;
+  font-size: 18px;
+}
